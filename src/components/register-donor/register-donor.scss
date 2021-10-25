@@ -1,0 +1,50 @@
+$primary-color: #b53838;
+$canvas-color: #f2e2e4;
+
+.register-donor-container {
+  height: 100vh;
+  margin: 0;
+  background-color: $canvas-color;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  .header-text {
+    padding: 1em 1em 0 1em;
+    font-family: 'Vollkorn', serif;
+    color: $primary-color;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+  }
+  .register-donor-form {
+    padding: 1em;
+    width: 100vw;
+    & > * {
+      width: 80%;
+      max-width: 600px;
+      min-width: 200px;
+      margin-bottom: 2em;
+      padding: 1em;
+      border-radius: 10px;
+      border: 1px solid $primary-color;
+      background-color: white;
+      font-family: 'Vollkorn', serif;
+      &::placeholder {
+        color: #b16666;
+      }
+    }
+    & > select {
+      color: #b53838;
+    }
+    #place-search-input {
+      padding: 0.5em;
+      margin: auto;
+      background-color: white;
+    }
+    .action-button {
+      margin-top: 2em;
+    }
+  }
+}
