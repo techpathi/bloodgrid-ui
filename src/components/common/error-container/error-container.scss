@@ -1,0 +1,14 @@
+$canvas-color: #f2e2e4;
+
+.error-block {
+  color: red;
+  border: none;
+  background-color: $canvas-color !important;
+  align-content: flex-end;
+  padding: 0 !important;
+  text-align: end;
+  svg {
+    display: inline;
+    margin-right: 0.5em;
+  }
+}
